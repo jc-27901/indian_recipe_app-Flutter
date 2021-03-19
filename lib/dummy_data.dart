@@ -2008,7 +2008,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/Bn8V8ZV/paneer-tikka-masala.jpg',
     duration: 50,
     ingredients: [
       'Paneer (cottage cheese) cubed 200 grams',
@@ -2061,7 +2061,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/1vqY1nh/chole-bhature.jpg',
     duration: 75,
     ingredients: [
       'For chole:',
@@ -2131,7 +2131,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/3BCKMx8/dal-makhani.jpg',
     duration: 45,
     ingredients: [
       '2 Cups sabut urad dal',
@@ -2167,7 +2167,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/PWz2cc0/punjabi-lassi.jpg',
     duration: 10,
     ingredients: [
       '4 cups thick yogurt / curd (fresh)',
@@ -2201,7 +2201,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Pricey,
     complexity: Complexity.Hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/swHW9m9/butter-chicken.jpg',
     duration: 80,
     ingredients: [
       'Boneless chicken cut into 1½ inch pieces 400 grams',
@@ -2257,7 +2257,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/7NxSnFd/sarsonkasag.webp',
     duration: 40,
     ingredients: [
       'for pressure cooking:',
@@ -2305,7 +2305,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/YftYmB4/Indian-naan-bread-with-garlic-butter-on-wooden-table.jpg',
     duration: 35,
     ingredients: [
       '2 cup maida / plain flour',
@@ -2352,7 +2352,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/Pm0bCFT/amritsari-kulcha.jpg',
     duration: 60,
     ingredients: [
       '𝒕𝒐 𝒑𝒓𝒆𝒑𝒂𝒓𝒆 𝒅𝒐𝒖𝒈𝒉:',
