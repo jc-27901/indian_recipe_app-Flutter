@@ -6,7 +6,7 @@ import './models/meal.dart';
 const DUMMY_CATEGORIES = const [
   Category(
     id: 'c1',
-    title: 'Maharashtrian    (मराठी)',
+    title: 'Maharashtra   (मराठी)',
     color: Colors.purple,
   ),
   Category(
@@ -787,11 +787,11 @@ const DUMMY_MEALS = const [
   Meal(
     id: 'm19',
     categories: ['c9', 'c6'],
-    title: 'Dhosa',
+    title: 'Dosa',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://i.ibb.co/g4PVkdm/dosa.jpg',
     duration: 40,
     ingredients: [
       'Dosa Batter 2 cups',
@@ -824,11 +824,11 @@ const DUMMY_MEALS = const [
   Meal(
     id: 'm20',
     categories: ['c9', 'c7'],
-    title: 'Mendu Vada',
+    title: 'Medu Vada',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://i.ibb.co/fNjGfVS/meduvada.jpg',
     duration: 30,
     ingredients: [
       'Split skinless black gram (dhuli urad dal) soaked for 6-8 hours and drained 1 cup',
@@ -868,7 +868,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://i.ibb.co/VDrwMGh/idli.jpg',
     duration: 25,
     ingredients: [
       'Idli rice – 2 cups',
@@ -897,7 +897,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://i.ibb.co/XY6TWtV/sambhar.jpg',
     duration: 40,
     ingredients: [
       'Arhar ki dal – 1/2 cup',
@@ -937,7 +937,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://i.ibb.co/YNsrzvr/upma1.jpg',
     duration: 25,
     ingredients: [
       'Semolina (suji) thick 1 1/2 cups',
@@ -978,7 +978,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://i.ibb.co/4stDGVL/uttapam.jpg',
     duration: 45,
     ingredients: [
       'Parboiled rice washed and soaked for 4 hours 2 3/4 cups',
@@ -1014,7 +1014,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://i.ibb.co/xL7ncb8/chicken-curry.jpg',
     duration: 50,
     ingredients: [
       '3 Tbsp refined oil',
@@ -1060,7 +1060,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Pricey,
     complexity: Complexity.Hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://i.ibb.co/DkFtBXt/hyderabadi-biryani.jpg',
     duration: 70,
     ingredients: [
       '1 Kg meat',
@@ -1103,7 +1103,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://i.ibb.co/610Pkz7/paal-payasam1.jpg',
     duration: 50,
     ingredients: [
       '50 gms rice',
@@ -1136,7 +1136,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://i.ibb.co/phGQTGt/kerala-Prawn-curry.jpg',
     duration: 50,
     ingredients: [
       'For marination:  6 medium Prawns, to taste Salt, 1/4 tsp Turmeric powder',
@@ -1601,7 +1601,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/sF3SqPn/vegchowmein.jpg',
     duration: 20,
     ingredients: [
       '200 gms fresh noodles',
@@ -1652,7 +1652,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Pricey,
     complexity: Complexity.Hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/Rc4Rr9X/chilli-chicken.jpg',
     duration: 50,
     ingredients: [
       '350 gms boneless Chicken (diced)',
@@ -1683,12 +1683,12 @@ const DUMMY_MEALS = const [
   ),
   Meal(
     id: 'm38',
-    categories: ['c3', 'c10'],
+    categories: ['c3', 'c6'],
     title: 'Manchurian',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/VMpWbwG/manchurian.jpg',
     duration: 40,
     ingredients: [
       'For vegetable balls:',
@@ -1747,7 +1747,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/sJB1mWn/Portion-baked-spring-rolls-with-vegetables-and-rice-on-a-plate-served-with-sauce.jpg',
     duration: 35,
     ingredients: [
       'For the pancakes:',
@@ -1789,7 +1789,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/HHV1LsL/vegmanchowsoup.jpg',
     duration: 20,
     ingredients: [
       '4 Cups Water',
@@ -1832,7 +1832,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/r5tn09x/vegamericanchoupsey.jpg',
     duration: 40,
     ingredients: [
       '1/2 Cup carrots, shredded',
@@ -1869,7 +1869,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/N37M2Sb/hakkannoodles.jpg',
     duration: 15,
     ingredients: [
       'for boiling noodles:',
@@ -1922,7 +1922,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/KWRYVk5/friedrice.jpg',
     duration: 30,
     ingredients: [
       'for cooking rice:',
@@ -1972,7 +1972,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://i.ibb.co/PggjmQ4/eggroll.jpg',
     duration: 30,
     ingredients: [
       'Eggs 3',
