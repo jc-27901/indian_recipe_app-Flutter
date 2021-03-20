@@ -107,8 +107,7 @@ const DUMMY_MEALS = const [
     title: 'Gathiya',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://i.ibb.co/7JPr3hY/Indian-Street-Food-Fafda.jpg',
+    imageUrl: 'https://i.ibb.co/7JPr3hY/Indian-Street-Food-Fafda.jpg',
     duration: 30,
     ingredients: [
       '2 cups besan (chick-pea flour)',
@@ -138,8 +137,7 @@ const DUMMY_MEALS = const [
     title: 'Undhiyu',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
-    imageUrl:
-    'https://i.ibb.co/TmPsDLh/undhiyu.jpg',
+    imageUrl: 'https://i.ibb.co/TmPsDLh/undhiyu.jpg',
     duration: 30,
     ingredients: [
       '100 gms yam- peeled and diced',
@@ -190,8 +188,7 @@ const DUMMY_MEALS = const [
     title: 'Thepla (Fenugreek Flatbread)',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://i.ibb.co/VQFFJ2b/thepla.jpg',
+    imageUrl: 'https://i.ibb.co/VQFFJ2b/thepla.jpg',
     duration: 20,
     ingredients: [
       'Fresh fenugreek leaves (methi) chopped 1 cup',
@@ -222,8 +219,7 @@ const DUMMY_MEALS = const [
     title: 'Kadhi(Curry) Khichdi',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://i.ibb.co/Qd6nxQ5/kadhi-khichdi.jpg',
+    imageUrl: 'https://i.ibb.co/Qd6nxQ5/kadhi-khichdi.jpg',
     duration: 35,
     ingredients: [
       'Khichdi: '
@@ -289,8 +285,7 @@ const DUMMY_MEALS = const [
     title: 'Khaman Dhokla',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
-    imageUrl:
-    'https://i.ibb.co/c1mNm0J/khaman-dhokla.jpg',
+    imageUrl: 'https://i.ibb.co/c1mNm0J/khaman-dhokla.jpg',
     duration: 60,
     ingredients: [
       'Gram flour (besan) sieved 2 cups',
@@ -324,8 +319,7 @@ const DUMMY_MEALS = const [
     title: 'Pani Puri (Gol gappa)',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/T0K3vCf/pani-puri.jpg',
+    imageUrl: 'https://i.ibb.co/T0K3vCf/pani-puri.jpg',
     duration: 40,
     ingredients: [
       'for puri:',
@@ -417,8 +411,7 @@ const DUMMY_MEALS = const [
     title: 'Dabeli',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/sKFL34H/DABELI.jpg',
+    imageUrl: 'https://i.ibb.co/RB9Ls1T/d-abeli.jpg',
     duration: 30,
     ingredients: [
       'for dabeli masala powder:',
@@ -550,7 +543,7 @@ const DUMMY_MEALS = const [
     isVegetarian: false,
     isLactoseFree: true,
   ),
-    Meal(
+  Meal(
     id: 'm16',
     categories: [
       'c4',
@@ -559,7 +552,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://i.ibb.co/dr3wzf2/indian-traditional-street-food-arbi-bhajiya-or-patra.jpg',
+        'https://i.ibb.co/C17xM1V/indian-traditional-street-food-arbi-bhajiya-or-patra.jpg',
     duration: 40,
     ingredients: [
       '5 Colacasia leaves',
@@ -604,8 +597,7 @@ const DUMMY_MEALS = const [
     title: 'Dal Dhokli',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/z8q2qrp/dal-dhokli.jpg',
+    imageUrl: 'https://i.ibb.co/z8q2qrp/dal-dhokli.jpg',
     duration: 30,
     ingredients: [
       'For the dal:',
@@ -645,8 +637,7 @@ const DUMMY_MEALS = const [
     title: 'SHRIKHAND - GUJARATI STYLE',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/CzYV9Zb/shrikhand.jpg',
+    imageUrl: 'https://i.ibb.co/CzYV9Zb/shrikhand.jpg',
     duration: 50,
     ingredients: [
       '1 litre plain Greek yogurt',
@@ -675,15 +666,63 @@ const DUMMY_MEALS = const [
     isVegetarian: true,
     isLactoseFree: false,
   ),
-
+  Meal(
+    id: 'm69',
+    categories: [
+      'c6',
+    ],
+    title: 'Kashmiri Rogan Josh',
+    affordability: Affordability.Pricey,
+    complexity: Complexity.Challenging,
+    imageUrl:
+        'https://i.ibb.co/kqwYxqS/Kashmiri-Rogan-Josh.jpg',
+    duration: 80,
+    ingredients: [
+      '500 grams Mutton , with bones, cut into medium pieces',
+      '1 cup Curd (Dahi / Yogurt)',
+      'Salt , as required',
+      'Mustard oil , as required',
+      'For whole spices',
+      '2 Black cardamom (Badi Elaichi)',
+      '4 Cardamom (Elaichi) Pods/Seeds',
+      '4 Cloves (Laung)',
+      '1 inch Cinnamon Stick (Dalchini)',
+      '1 Bay leaf (tej patta)',
+      '1/2 teaspoon Black pepper powder',
+      '1 teaspoon Fennel Powder',
+      '1/2 teaspoon Asafoetida (hing)',
+      '2 teaspoons Kashmiri Red Chilli Powder',
+      '1/2 inch Ratan jot (alkanet) , (infuse it in heated oil)',
+      'For marination',
+      '1 teaspoon Fennel seeds (Saunf)',
+      '1/4 teaspoon Cinnamon Powder (Dalchini)',
+      '1 teaspoon Kashmiri Red Chilli Powder',
+      '1/2 teaspoon Black pepper powder',
+      '1/2 teaspoon Cardamom Powder (Elaichi)',
+    ],
+    steps: [
+      'To begin making the Kashmiri Rogan Josh recipe, wash mutton nicely and drain water completely.',
+      'Marinade the mutton with mentioned ingredients under Marination for approximately for 1 and 1-1/2 hours. Cling wrap the bowl and refrigerate it for better results.',
+      'Heat oil in a heavy bottomed wok and add bay leaf and other whole spices mentioned.',
+      'Immediately, add marinaded mutton and mix well. Fry on medium to high flames stirring occasionally.',
+      'Now add asafoetida and stir well. Add almost 1 cup of water in the mutton mix and allow it to cook with lid closed.',
+      'In a separate bowl, add yogurt and red chilli powder & fennel powder and whisk nicely.',
+      'Take off the lid and add whisked yogurt and mix well such that everything incorporates nicely. Adjust salt as needed.',
+      'Now add Ratan Jot / root infused in oil in the mutton and cook till mutton is soft and tender.Garnish with fresh coriander and serve hot.',
+      'Serve Kashmiri Rogan Josh with hot steamed rice or rumali rotis for a delicious weekend meal.',
+    ],
+    isVegetarian: false,
+    isGlutenFree: true,
+    isVegan: false,
+    isLactoseFree: true,
+  ),
   Meal(
     id: 'm19',
     categories: ['c9', 'c6'],
     title: 'Dosa',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/g4PVkdm/dosa.jpg',
+    imageUrl: 'https://i.ibb.co/g4PVkdm/dosa.jpg',
     duration: 40,
     ingredients: [
       'Dosa Batter 2 cups',
@@ -719,8 +758,7 @@ const DUMMY_MEALS = const [
     title: 'Medu Vada',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/fNjGfVS/meduvada.jpg',
+    imageUrl: 'https://i.ibb.co/fNjGfVS/meduvada.jpg',
     duration: 30,
     ingredients: [
       'Split skinless black gram (dhuli urad dal) soaked for 6-8 hours and drained 1 cup',
@@ -755,12 +793,11 @@ const DUMMY_MEALS = const [
   ),
   Meal(
     id: 'm21',
-    categories: ['c9', 'c7','c6'],
+    categories: ['c9', 'c7', 'c6'],
     title: 'Idli',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/VDrwMGh/idli.jpg',
+    imageUrl: 'https://i.ibb.co/VDrwMGh/idli.jpg',
     duration: 25,
     ingredients: [
       'Idli rice – 2 cups',
@@ -788,8 +825,7 @@ const DUMMY_MEALS = const [
     title: 'Sambhar',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/XY6TWtV/sambhar.jpg',
+    imageUrl: 'https://i.ibb.co/XY6TWtV/sambhar.jpg',
     duration: 40,
     ingredients: [
       'Arhar ki dal – 1/2 cup',
@@ -828,8 +864,7 @@ const DUMMY_MEALS = const [
     title: 'Upma',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/YNsrzvr/upma1.jpg',
+    imageUrl: 'https://i.ibb.co/YNsrzvr/upma1.jpg',
     duration: 25,
     ingredients: [
       'Semolina (suji) thick 1 1/2 cups',
@@ -869,8 +904,7 @@ const DUMMY_MEALS = const [
     title: 'Uttapam',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/4stDGVL/uttapam.jpg',
+    imageUrl: 'https://i.ibb.co/4stDGVL/uttapam.jpg',
     duration: 45,
     ingredients: [
       'Parboiled rice washed and soaked for 4 hours 2 3/4 cups',
@@ -905,8 +939,7 @@ const DUMMY_MEALS = const [
     title: 'Andhra Style Chicken Curry',
     affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/xL7ncb8/chicken-curry.jpg',
+    imageUrl: 'https://i.ibb.co/xL7ncb8/chicken-curry.jpg',
     duration: 50,
     ingredients: [
       '3 Tbsp refined oil',
@@ -945,14 +978,11 @@ const DUMMY_MEALS = const [
   ),
   Meal(
     id: 'm26',
-    categories: [
-      'c9','c6'
-    ],
+    categories: ['c9', 'c6'],
     title: 'Hyderabadi Biryani',
     affordability: Affordability.Pricey,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/DkFtBXt/hyderabadi-biryani.jpg',
+    imageUrl: 'https://i.ibb.co/DkFtBXt/hyderabadi-biryani.jpg',
     duration: 70,
     ingredients: [
       '1 Kg meat',
@@ -994,8 +1024,7 @@ const DUMMY_MEALS = const [
     title: 'Paal Payasam',
     affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/610Pkz7/paal-payasam1.jpg',
+    imageUrl: 'https://i.ibb.co/610Pkz7/paal-payasam1.jpg',
     duration: 50,
     ingredients: [
       '50 gms rice',
@@ -1027,8 +1056,7 @@ const DUMMY_MEALS = const [
     title: 'Konju Varutharaccha Curry (Kerala Prawn Curry)',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/phGQTGt/kerala-Prawn-curry.jpg',
+    imageUrl: 'https://i.ibb.co/phGQTGt/kerala-Prawn-curry.jpg',
     duration: 50,
     ingredients: [
       'For marination:  6 medium Prawns, to taste Salt, 1/4 tsp Turmeric powder',
@@ -1061,8 +1089,7 @@ const DUMMY_MEALS = const [
     title: 'Aloo tikki burger',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://i.ibb.co/YQwCtvB/aloo-tiki.jpg',
+    imageUrl: 'https://i.ibb.co/YQwCtvB/aloo-tiki.jpg',
     duration: 20,
     ingredients: [
       'for aloo patties:',
@@ -1116,8 +1143,7 @@ const DUMMY_MEALS = const [
     title: 'Mumbai Vada Pav',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://i.ibb.co/xX7YfS8/vadapav.jpg',
+    imageUrl: 'https://i.ibb.co/xX7YfS8/vadapav.jpg',
     duration: 40,
     ingredients: [
       'For Batata Vada Stuffing:',
@@ -1207,8 +1233,7 @@ const DUMMY_MEALS = const [
     title: 'Misal Pav',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/THfJ47m/misalPav.jpg',
+    imageUrl: 'https://i.ibb.co/mSctxCk/misal-pav.jpg',
     duration: 65,
     ingredients: [
       'For paste of gravy/sauce:',
@@ -1280,8 +1305,7 @@ const DUMMY_MEALS = const [
     title: 'Pav Bhaji',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://i.ibb.co/GQfHSJz/pavbhaji.jpg',
+    imageUrl: 'https://i.ibb.co/GQfHSJz/pavbhaji.jpg',
     duration: 40,
     ingredients: [
       '1 tsp oil',
@@ -1330,8 +1354,7 @@ const DUMMY_MEALS = const [
     title: 'Kaju Kothimbir Vadi',
     affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/pPG7Ybd/kajukothimbirvadi.jpg',
+    imageUrl: 'https://i.ibb.co/pPG7Ybd/kajukothimbirvadi.jpg',
     duration: 45,
     ingredients: [
       '1 cup gram flour (besan)',
@@ -1365,8 +1388,7 @@ const DUMMY_MEALS = const [
     title: 'Bhakarwadi Maharashtrian ',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/vBBZ9z6/bhakharwadi.jpg',
+    imageUrl: 'https://i.ibb.co/471d4GP/bhakharvadi.jpg',
     duration: 30,
     ingredients: [
       'for dough:',
@@ -1414,8 +1436,7 @@ const DUMMY_MEALS = const [
     title: 'Zunka Bhakri',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://i.ibb.co/rkrG8Mf/zunkabhakri.jpg',
+    imageUrl: 'https://i.ibb.co/rkrG8Mf/zunkabhakri.jpg',
     duration: 30,
     ingredients: [
       'For the ghol:',
@@ -1458,8 +1479,7 @@ const DUMMY_MEALS = const [
     title: 'Modak',
     affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/8XyLgPW/modak.jpg',
+    imageUrl: 'https://i.ibb.co/8XyLgPW/modak.jpg',
     duration: 35,
     ingredients: [
       'For the filling:',
@@ -1497,8 +1517,7 @@ const DUMMY_MEALS = const [
     title: 'Puran Poli',
     affordability: Affordability.Pricey,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/17dqPGM/Puran-poli.jpg',
+    imageUrl: 'https://i.ibb.co/17dqPGM/Puran-poli.jpg',
     duration: 55,
     ingredients: [
       'For mixture:',
@@ -1539,6 +1558,173 @@ const DUMMY_MEALS = const [
   ),
 
   Meal(
+    id: 'm64',
+    categories: [
+      'c11',
+    ],
+    title: 'Masala Chai',
+    affordability: Affordability.Affordable,
+    complexity: Complexity.Simple,
+    imageUrl: 'https://i.ibb.co/XSsjFTM/tea.jpg',
+    duration: 10,
+    ingredients: [
+      'for chai masala powder:',
+      '80 grams cardamom',
+      '40 grams cloves',
+      '40 grams pepper',
+      '16 grams cinnamon',
+      '20 grams fennel / saunf',
+      '60 grams dry ginger',
+      '12 tulsi seeds',
+      '1 nutmeg / jaiphal',
+      'for 2 cup chai using masala:',
+      '4 cup water',
+      '8 tsp tea powder',
+      '1 tsp chai masala (prepared)',
+      '2 cup milk',
+      '4 tsp sugar',
+    ],
+    steps: [
+      'firstly, in a heavy-bottomed pan take 40 grams cardamom, 20 grams cloves, 20 grams pepper, 8 grams cinnamon and 10 grams fennel.',
+      'dry roast on low flame until it turns aromatic. keep aside.',
+      'now take 30 grams dry ginger and break into pieces.',
+      'dry roast until it turns aromatic. keep aside.',
+      'further add 6 tulsi seeds, ½ nutmeg and roast well.',
+      'cool completely, and transfer all the spice mix into blender.',
+      'blend to a slightly coarse powder. chai masala powder is ready, you can store in an airtight container and use for a month.',
+      'prepare chai using homemade chai ka masala:',
+      'firstly, in a saucepan take 2 cup water, 4 tsp tea powder and ½ tsp chai masala.',
+      'boil for 4 minutes or until strong decoction is prepared.',
+      'now add 1 cup milk, 2 tsp sugar and boil the chai twice.',
+      'strain the masala tea and enjoy.',
+    ],
+    isGlutenFree: true,
+    isVegan: false,
+    isVegetarian: true,
+    isLactoseFree: false,
+  ),
+  Meal(
+    id: 'm65',
+    categories: [
+      'c11',
+    ],
+    title: 'Dry Fruit Milkshake',
+    affordability: Affordability.Affordable,
+    complexity: Complexity.Simple,
+    imageUrl: 'https://i.ibb.co/rm53HN5/dryfruitmilkshake.jpg',
+    duration: 25,
+    ingredients: [
+      '¼ cup almonds',
+      '¼ cup unsalted pistachios, shelled',
+      '¼ cup cashews',
+      '¼ cup raisins',
+      '7 to 8 dates, chopped',
+      '2 to 3 dried figs, chopped',
+      '1 pinch saffron',
+      '2.5 cups milk - chilled soy or dairy milk',
+      'sugar as required',
+      'a few dry fruits for garnish - either slice or chop the dry fruits',
+    ],
+    steps: [
+      'Preparation',
+      'Soak figs in hot water for 30 minutes or in regular water for 2 to 3 hours.',
+      'If you have dried figs which are soft, then no need to soak them. If the dried figs are chewy and hard, then do soak them.',
+      'You can also soak dates if they are hard. If they are soft, then no need to soak dates. You can also soak the almonds, cashews and the remaining dry fruits if you want.',
+      'Once the figs have softened, then chop them. Also chop the dates.',
+      'Rinse the remaining dry fruits except saffron.',
+      'Making Dry Fruits Milkshake',
+      'Then add the dry fruits in a blender jar.',
+      'Add ½ cup milk and blend to a semi fine or fine paste.',
+      'Then add the remaining 2 cups milk. You can also add sugar if you want.',
+      'Blend well again. Stir and pour in glasses.',
+      'Garnish with a few dry fruits slices and serve dry fruits milkshake immediately.',
+    ],
+    isGlutenFree: true,
+    isVegan: false,
+    isVegetarian: true,
+    isLactoseFree: false,
+  ),
+  Meal(
+    id: 'm66',
+    categories: [
+      'c11',
+    ],
+    title: 'Cold Coffee',
+    affordability: Affordability.Affordable,
+    complexity: Complexity.Simple,
+    imageUrl: 'https://i.ibb.co/kQxdMws/coldcoffeee.jpg',
+    duration: 15,
+    ingredients: [
+      '1 tablespoon instant coffee',
+      '¼ cup warm water or 62.5 ml warm water',
+      '3 to 4 tablespoon sugar or add as required',
+      '2 cups chilled milk or 500 ml chilled milk',
+      '6 to 8 ice cubes or as required',
+    ],
+    steps: [
+      'In a blender take 1 tbsp instant coffee, 3 to 4 tbsp sugar, add 1/4 cup warm water.',
+      'Stir very well. To make the shake, I used full cream milk. You can also use skimmed milk or low fat milk. If using skimmed milk or low fat milk, then just reduce the ¼ cup water to about 2 to 3 tbsp.',
+      'Blend for a minute or till the coffee solution becomes frothy and the color lightens a bit.',
+      'Add 6 to 7 ice cubes. For a thick cold coffee, you can reduce the ice cubes from 2 to 4.',
+      'Pour 2 cups chilled milk.',
+      'Blend once more till everything is mixed well and you get a nice froth on top.',
+      'Pour in glasses and serve cold coffee. The froth on top settles down and reduces with time. So serve immediately.',
+    ],
+    isGlutenFree: true,
+    isVegan: false,
+    isVegetarian: true,
+    isLactoseFree: false,
+  ),
+  Meal(
+    id: 'm67',
+    categories: [
+      'c11',
+    ],
+    title: 'Mango falooda',
+    affordability: Affordability.Affordable,
+    complexity: Complexity.Simple,
+    imageUrl: 'https://i.ibb.co/Ns7JnZ8/mangofalooda.jpg',
+    duration: 20,
+    ingredients: [
+      '2 teaspoon sabja seeds (sweet basil seeds) - soaked in ¾ cup water',
+      '3 tablespoon falooda sev cooked as per package instructions',
+      '3 to 4 tablespoon rose syrup',
+      '½ to ⅔ cup mango puree or two medium sized mangoes blended to a smooth puree in a blender',
+      '2 to 2.5 cups chilled milk',
+      '1 tablespoon chopped or sliced pistachios - or a mix of chopped dry fruits',
+      '3 to 4 scoops of mango ice cream or vanilla ice cream (optional)',
+      '1 medium sized mango, peeled and chopped in small cubes',
+      'crushed ice or ice cubes (optional)',
+      'mango custard (optional)',
+      'mango jelly (optional)',
+      'tutti frutti (optional)',
+    ],
+    steps: [
+      'Preparation',
+      'First soak 2 tsp sabja seeds (sweet basil seeds) in 3/4 cup water for about 20 to 30 minutes.',
+      'Later strain them with a tea strainer and keep aside.',
+      'Then prepare the falooda sev according to package instructions.',
+      'If you need to cook them then do boil them in water till they are cooked completely & softened.',
+      'Rinse the cooked falooda sev in water and then drain them. Keep aside covered. allow them to cool completely at room temperature.',
+      'Making Mango Falooda',
+      'In serving glasses, first add 1 tbsp rose syrup.',
+      'Then add 2 tsp sabja seeds/sweet basil seeds.',
+      'Next add 2 to 3 tsp falooda sev.',
+      'Add 3 tbsp mango puree.',
+      'Add 1/4 to 1/3 cup milk.',
+      'Repeat the layers again.',
+      'Add 1/3 to 1/2 cup milk.',
+      'Add chopped mangoes.',
+      'Top with a scoop of mango or vanilla ice cream and some chopped or sliced dry fruits. Also add some chopped mangoes.',
+      'Serve mango falooda immediately.',
+    ],
+    isGlutenFree: true,
+    isVegan: false,
+    isVegetarian: true,
+    isLactoseFree: false,
+  ),
+
+  Meal(
     id: 'm36',
     categories: [
       'c3',
@@ -1546,8 +1732,7 @@ const DUMMY_MEALS = const [
     title: 'Vegetable Chowmein',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/sF3SqPn/vegchowmein.jpg',
+    imageUrl: 'https://i.ibb.co/sF3SqPn/vegchowmein.jpg',
     duration: 20,
     ingredients: [
       '200 gms fresh noodles',
@@ -1597,8 +1782,7 @@ const DUMMY_MEALS = const [
     title: 'Chilli Chicken',
     affordability: Affordability.Pricey,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/Rc4Rr9X/chilli-chicken.jpg',
+    imageUrl: 'https://i.ibb.co/Rc4Rr9X/chilli-chicken.jpg',
     duration: 50,
     ingredients: [
       '350 gms boneless Chicken (diced)',
@@ -1633,8 +1817,7 @@ const DUMMY_MEALS = const [
     title: 'Manchurian',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/VMpWbwG/manchurian.jpg',
+    imageUrl: 'https://i.ibb.co/VMpWbwG/manchurian.jpg',
     duration: 40,
     ingredients: [
       'For vegetable balls:',
@@ -1729,13 +1912,45 @@ const DUMMY_MEALS = const [
     isLactoseFree: false,
   ),
   Meal(
+    id: 'm48',
+    categories: ['c11'],
+    title: 'Punjabi Lassi',
+    affordability: Affordability.Affordable,
+    complexity: Complexity.Simple,
+    imageUrl: 'https://i.ibb.co/PWz2cc0/punjabi-lassi.jpg',
+    duration: 10,
+    ingredients: [
+      '4 cups thick yogurt / curd (fresh)',
+      '6 tbsp sugar (powdered)',
+      '0.5 cup ice cold water',
+      '1 tsp cardamom powder',
+      '2 tbsp fresh cream / malai',
+      'few dry fruits (almonds, cashews, pistachios, chopped)',
+    ],
+    steps: [
+      'firstly, take 2 cups of curd in a large jug.',
+      'whisk till the curd turns smooth. you can also blend using the hand blender / mixi.',
+      'furthermore, add ice cold water to adjust the consistency.',
+      'also add 3-4 tbsp of powdered sugar.',
+      'then add cardamom powder.',
+      'whisk again till a frothy layer is formed. you can also blend using the hand blender / mixi.',
+      'additionally add cream for more rich taste. and give a good stir.',
+      'transfer the lassi to a serving jar.',
+      'also garnish with few chopped nuts.',
+      'finally serve chilled along with few ice cubes.',
+    ],
+    isGlutenFree: true,
+    isVegan: false,
+    isVegetarian: true,
+    isLactoseFree: false,
+  ),
+  Meal(
     id: 'm40',
     categories: ['c3', 'c11'],
     title: 'Vegetable Manchow Soup',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/HHV1LsL/vegmanchowsoup.jpg',
+    imageUrl: 'https://i.ibb.co/HHV1LsL/vegmanchowsoup.jpg',
     duration: 20,
     ingredients: [
       '4 Cups Water',
@@ -1777,8 +1992,7 @@ const DUMMY_MEALS = const [
     title: 'Vegetable Chopsuey',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/r5tn09x/vegamericanchoupsey.jpg',
+    imageUrl: 'https://i.ibb.co/r5tn09x/vegamericanchoupsey.jpg',
     duration: 40,
     ingredients: [
       '1/2 Cup carrots, shredded',
@@ -1809,13 +2023,69 @@ const DUMMY_MEALS = const [
     isLactoseFree: true,
   ),
   Meal(
+    id: '68',
+    categories: ['c2'],
+    title: 'Samosa',
+    affordability: Affordability.Affordable,
+    complexity: Complexity.Simple,
+    imageUrl: 'https://i.ibb.co/z2rH63x/samosa.jpg',
+    duration: 70,
+    ingredients: [
+      'for dough:',
+      '2 cup maida / plain flour',
+      '¼ tsp ajwain / carom seeds',
+      '½ tsp salt',
+      '¼ cup oil',
+      '½ cup water',
+      'for stuffing:',
+      '2 tsp oil',
+      '1 tsp cumin / jeera',
+      '½ tsp coriander seeds (crushed)',
+      '½ tsp fennel / saunf',
+      'pinch hing / asafoetida',
+      '1 inch ginger (finely chopped)',
+      '1 chilli (finely chopped)',
+      '½ cup peas / matar',
+      '½ tsp kashmiri red chilli powder',
+      '½ tsp coriander powder',
+      '¼ tsp cumin powder / jeera powder',
+      '½ tsp aamchur / dry mango powder',
+      '½ tsp garam masala',
+      '¼ tsp pepper (crushed)',
+      '¾ tsp salt',
+      '4 potato / aloo (boiled & mashed)',
+      '5 cashew / kaju (chopped)',
+      '2 tbsp raisins / kishmish',
+      '2 tbsp coriander (finely chopped)',
+      'other ingredients:',
+      'water (for sealing)',
+      'oil (for deep frying)',
+    ],
+    steps: [
+      'pinch a ball sized dough and grease with oil.',
+      'roll the dough into oval shape.',
+      'now cut it horizontally, diving into 2 equal portions using a knife.',
+      'grease with water and make cone.',
+      'stuff 2 tbsp of prepared samosa masala into the cone.',
+      'grease little water on the edges.',
+      'close and seal tightly by pressing firmly.',
+      'deep-fry the samosa on a low flame. alternatively bake at 180 degree celcius for 40 minutes.',
+      'stir occasionally, frying the samosa on low flame for atleast 15 minutes.',
+      'once the aloo samosa turns golden and crisp, drain off over kitchen paper.',
+      'finally, enjoy aloo samosa with green chutney and tamarind chutney.',
+    ],
+    isGlutenFree: false,
+    isVegan: false,
+    isVegetarian: true,
+    isLactoseFree: true,
+  ),
+  Meal(
     id: 'm42',
     categories: ['c3', 'c2'],
     title: 'Hakka noodles',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/N37M2Sb/hakkannoodles.jpg',
+    imageUrl: 'https://i.ibb.co/N37M2Sb/hakkannoodles.jpg',
     duration: 15,
     ingredients: [
       'for boiling noodles:',
@@ -1867,8 +2137,7 @@ const DUMMY_MEALS = const [
     title: 'veg fried rice',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/KWRYVk5/friedrice.jpg',
+    imageUrl: 'https://i.ibb.co/KWRYVk5/friedrice.jpg',
     duration: 30,
     ingredients: [
       'for cooking rice:',
@@ -1917,8 +2186,7 @@ const DUMMY_MEALS = const [
     title: 'Egg Roll',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/PggjmQ4/eggroll.jpg',
+    imageUrl: 'https://i.ibb.co/PggjmQ4/eggroll.jpg',
     duration: 30,
     ingredients: [
       'Eggs 3',
@@ -1953,8 +2221,7 @@ const DUMMY_MEALS = const [
     title: 'Paneer Tikka Masala',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/Bn8V8ZV/paneer-tikka-masala.jpg',
+    imageUrl: 'https://i.ibb.co/Bn8V8ZV/paneer-tikka-masala.jpg',
     duration: 50,
     ingredients: [
       'Paneer (cottage cheese) cubed 200 grams',
@@ -2006,8 +2273,7 @@ const DUMMY_MEALS = const [
     title: 'Chole Bhature',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/1vqY1nh/chole-bhature.jpg',
+    imageUrl: 'https://i.ibb.co/1vqY1nh/chole-bhature.jpg',
     duration: 75,
     ingredients: [
       'For chole:',
@@ -2076,8 +2342,7 @@ const DUMMY_MEALS = const [
     title: 'Dal Makhani',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/3BCKMx8/dal-makhani.jpg',
+    imageUrl: 'https://i.ibb.co/3BCKMx8/dal-makhani.jpg',
     duration: 45,
     ingredients: [
       '2 Cups sabut urad dal',
@@ -2108,12 +2373,14 @@ const DUMMY_MEALS = const [
   ),
   Meal(
     id: 'm48',
-    categories: ['c5', 'c10', 'c11'],
+    categories: [
+      'c5',
+      'c10',
+    ],
     title: 'Punjabi Lassi',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/PWz2cc0/punjabi-lassi.jpg',
+    imageUrl: 'https://i.ibb.co/PWz2cc0/punjabi-lassi.jpg',
     duration: 10,
     ingredients: [
       '4 cups thick yogurt / curd (fresh)',
@@ -2146,8 +2413,7 @@ const DUMMY_MEALS = const [
     title: 'Butter Chicken',
     affordability: Affordability.Pricey,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/swHW9m9/butter-chicken.jpg',
+    imageUrl: 'https://i.ibb.co/hVMY8Hn/butter-chicken.jpg',
     duration: 80,
     ingredients: [
       'Boneless chicken cut into 1½ inch pieces 400 grams',
@@ -2202,8 +2468,7 @@ const DUMMY_MEALS = const [
     title: 'Sarson ka saag',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/7NxSnFd/sarsonkasag.webp',
+    imageUrl: 'https://i.ibb.co/7NxSnFd/sarsonkasag.webp',
     duration: 40,
     ingredients: [
       'for pressure cooking:',
@@ -2244,9 +2509,7 @@ const DUMMY_MEALS = const [
   ),
   Meal(
     id: 'm51',
-    categories: [
-      'c5','c6'
-    ],
+    categories: ['c5', 'c6'],
     title: 'Garlic naan',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
@@ -2297,8 +2560,7 @@ const DUMMY_MEALS = const [
     title: 'Amritsari Kulcha',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/Pm0bCFT/amritsari-kulcha.jpg',
+    imageUrl: 'https://i.ibb.co/Pm0bCFT/amritsari-kulcha.jpg',
     duration: 60,
     ingredients: [
       '𝒕𝒐 𝒑𝒓𝒆𝒑𝒂𝒓𝒆 𝒅𝒐𝒖𝒈𝒉:',
@@ -2350,8 +2612,7 @@ const DUMMY_MEALS = const [
     title: 'Pizza Margherita',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/FbkTqCt/Margherita.jpg',
+    imageUrl: 'https://i.ibb.co/FbkTqCt/Margherita.jpg',
     duration: 60,
     ingredients: [
       'For the base',
@@ -2387,8 +2648,7 @@ const DUMMY_MEALS = const [
     title: 'Cheese Burst Pizza',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/ByqcXhK/cheeseburst.jpg',
+    imageUrl: 'https://i.ibb.co/ByqcXhK/cheeseburst.jpg',
     duration: 30,
     ingredients: [
       'For dough:',
@@ -2430,8 +2690,7 @@ const DUMMY_MEALS = const [
     title: 'Chicken Pizza',
     affordability: Affordability.Pricey,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/PDBNHTd/chikcenpizza.jpg',
+    imageUrl: 'https://i.ibb.co/PDBNHTd/chikcenpizza.jpg',
     duration: 50,
     ingredients: [
       '1 Tbsp Chili or sunflower oil',
@@ -2465,8 +2724,7 @@ const DUMMY_MEALS = const [
     title: 'Four Cheese Pasta',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/pQnpph1/cheesepasta.jpg',
+    imageUrl: 'https://i.ibb.co/pQnpph1/cheesepasta.jpg',
     duration: 30,
     ingredients: [
       '1 Cup macaroni(pasta)',
@@ -2516,8 +2774,7 @@ const DUMMY_MEALS = const [
     title: 'White sauce pasta',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/f9PbRmg/whitesaucepasta.jpg',
+    imageUrl: 'https://i.ibb.co/f9PbRmg/whitesaucepasta.jpg',
     duration: 30,
     ingredients: [
       'for boiling pasta:',
@@ -2580,8 +2837,7 @@ const DUMMY_MEALS = const [
     title: 'Chicken Pasta ',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/FwwMzLw/chicken-Pasta.jpg',
+    imageUrl: 'https://i.ibb.co/FwwMzLw/chicken-Pasta.jpg',
     duration: 30,
     ingredients: [
       '1 Cup water',
@@ -2680,8 +2936,7 @@ const DUMMY_MEALS = const [
     title: 'Gulab Jamun',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/sC8k4pn/gulab-jamun.jpg',
+    imageUrl: 'https://i.ibb.co/sC8k4pn/gulab-jamun.jpg',
     duration: 40,
     ingredients: [
       '300 gms khoya',
@@ -2713,8 +2968,7 @@ const DUMMY_MEALS = const [
     title: 'Gajar Halwa',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-        'https://i.ibb.co/QQ1dQn4/gajarkahalwa.jpg',
+    imageUrl: 'https://i.ibb.co/QQ1dQn4/gajarkahalwa.jpg',
     duration: 40,
     ingredients: [
       '1 1/2 Kg carrots',
@@ -2747,8 +3001,7 @@ const DUMMY_MEALS = const [
     title: 'Jalebi',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
-    imageUrl:
-    'https://i.ibb.co/HFMZ3ns/jalebi.jpg',
+    imageUrl: 'https://i.ibb.co/HFMZ3ns/jalebi.jpg',
     duration: 25,
     ingredients: [
       'for jalebi batter:',
@@ -2795,8 +3048,7 @@ const DUMMY_MEALS = const [
     title: 'Besan ladoo',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://i.ibb.co/PQ5ZWvz/besankeladoo.jpg',
+    imageUrl: 'https://i.ibb.co/PQ5ZWvz/besankeladoo.jpg',
     duration: 35,
     ingredients: [
       '½ cup ghee / clarified butter',
@@ -2837,8 +3089,7 @@ const DUMMY_MEALS = const [
     title: 'Kaju ki Barfi (Kaju katli)',
     affordability: Affordability.Pricey,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/5YF9THn/kajukibarfi.jpg',
+    imageUrl: 'https://i.ibb.co/5YF9THn/kajukibarfi.jpg',
     duration: 55,
     ingredients: [
       '250 gms cashew nuts',
@@ -2869,8 +3120,7 @@ const DUMMY_MEALS = const [
     title: 'Rasgulla',
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
-    imageUrl:
-        'https://i.ibb.co/Rv6t4pn/rasgulla.jpg',
+    imageUrl: 'https://i.ibb.co/Rv6t4pn/rasgulla.jpg',
     duration: 40,
     ingredients: [
       '2 litre milk (full cream)',
@@ -2907,8 +3157,6 @@ const DUMMY_MEALS = const [
     isLactoseFree: false,
   ),
 
-
-
   Meal(
     id: 'm62',
     categories: [
@@ -2917,8 +3165,7 @@ const DUMMY_MEALS = const [
     title: 'Sandesh (Bengal Sweet)',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://i.ibb.co/c8Gzq7n/sandesh.jpg',
+    imageUrl: 'https://i.ibb.co/c8Gzq7n/sandesh.jpg',
     duration: 30,
     ingredients: [
       '150 gms paneer (cottage cheese)',
@@ -2947,7 +3194,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-    'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
     duration: 45,
     ingredients: [
       '1 Teaspoon melted Butter',
@@ -2987,8 +3234,6 @@ const DUMMY_MEALS = const [
     isVegetarian: true,
     isLactoseFree: false,
   ),
-
-
 
   // Meal(
   //   id: 'm2',
