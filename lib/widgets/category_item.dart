@@ -35,6 +35,14 @@ class CategoryItem extends StatelessWidget {
                 end: Alignment.bottomLeft
             ),
             borderRadius: BorderRadius.circular(15.0),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.grey[600].withOpacity(0.6),
+                spreadRadius: 3,
+                blurRadius: 7,
+                offset: Offset(0, 2), // changes position of shadow
+              ),
+            ],
           ),
         ),
       );
