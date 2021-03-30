@@ -38,7 +38,7 @@ class _TabScreenState extends State<TabsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(_pages[_selePageIndex]['title']),
+        title: Text(_pages[_selePageIndex]['title'])
       ),
       drawer: MainDrawer(),
       body: _pages[_selePageIndex]['page'],
@@ -56,7 +56,7 @@ class _TabScreenState extends State<TabsScreen> {
         ],
         backgroundColor: Theme.of(context).primaryColor,
         unselectedItemColor: Colors.white,
-        selectedItemColor: Colors.amber,
+        selectedItemColor: Colors.amber[300],
         currentIndex: _selePageIndex,
       ),
     );

@@ -53,7 +53,9 @@ class MealDetailScreen extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            buildSectionTitle(context, 'Ingredients'),
+           // buildSectionTitle(context, 'Ingredients'),
+            SizedBox(height: 10.0,),
+            Text('Ingredients',style: TextStyle(fontSize: 25.0,fontWeight: FontWeight.bold),),
             buildContainer(
               ListView.builder(
                 itemBuilder: (ctx, index) => Card(
@@ -61,13 +63,15 @@ class MealDetailScreen extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                         vertical: 5.0, horizontal: 10.0),
-                    child: Text(selectedMeal.ingredients[index]),
+                    child: Text(selectedMeal.ingredients[index],style: TextStyle(color: Colors.white,fontSize: 18.0),),
                   ),
                 ),
                 itemCount: selectedMeal.ingredients.length,
               ),
             ),
-            buildSectionTitle(context, 'Steps'),
+            SizedBox(height: 10,),
+            Text('Steps',style: TextStyle(fontSize: 25.0,fontWeight: FontWeight.bold),),
+            //buildSectionTitle(context, 'Steps'),
             buildContainer(
               ListView.builder(
                 itemBuilder: (ctx, index) => Column(
@@ -76,7 +80,7 @@ class MealDetailScreen extends StatelessWidget {
                       leading: CircleAvatar(
                         child: Text('# ${(index + 1)}'),
                       ),
-                      title: Text(selectedMeal.steps[index]),
+                      title: Text(selectedMeal.steps[index],style: TextStyle(fontSize: 18.0),),
                     ),
                     Divider(),
                   ],
@@ -88,6 +92,7 @@ class MealDetailScreen extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.redAccent,
         child: Icon(
           isFavorite(mealId) ? Icons.star : Icons.star_border,
         ),

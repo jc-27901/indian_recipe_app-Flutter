@@ -28,19 +28,27 @@ class CategoryItem extends StatelessWidget {
           child: Text(title, style: Theme
               .of(context)
               .textTheme
-              .title,),
+              .title.copyWith(color: Colors.white),),
           decoration: BoxDecoration(
-            gradient: LinearGradient(colors: [color.withOpacity(0.7), color],
-                begin: Alignment.topLeft,
-                end: Alignment.bottomLeft
+            color: const Color(0xFF000000),
+            image: DecorationImage(
+              colorFilter:
+              ColorFilter.mode(Colors.black.withOpacity(0.42),
+                  BlendMode.dstATop
+              ),
+              image: NetworkImage('https://i.ibb.co/nCWPznV/271708.jpg',),fit: BoxFit.cover,
             ),
+            // gradient: LinearGradient(colors: [color.withOpacity(0.8), color],
+            //     begin: Alignment.topLeft,
+            //     end: Alignment.bottomLeft
+            // ),
             borderRadius: BorderRadius.circular(15.0),
             boxShadow: [
               BoxShadow(
-                color: Colors.grey[600].withOpacity(0.6),
-                spreadRadius: 3,
-                blurRadius: 7,
-                offset: Offset(0, 2), // changes position of shadow
+                color: Colors.grey[700].withOpacity(0.5),
+                spreadRadius: 2,
+                blurRadius: 4,
+                offset: Offset(1, 3), // changes position of shadow
               ),
             ],
           ),

@@ -36,9 +36,9 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/recipe-icon-4.jpg"
-  adaptive_icon_background: "#191919"
-  adaptive_icon_foreground: "assets/recipe-icon-4.jpg"
+  image_path: "assets/RecipeS.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/RecipeS.png"
 
 
 # For information on the generic Dart part of this file, see the
