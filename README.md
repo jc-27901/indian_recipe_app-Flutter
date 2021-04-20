@@ -1,6 +1,6 @@
 # my_recipie_app
 
-A new Flutter application.
+RecipeBook Flutter!
 
 ## Getting Started
 
@@ -8,12 +8,12 @@ This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+These are some screen shots of the application and its screens feel free to use the application and give your remarkable reviews!
+
+
+
 ![categories](https://user-images.githubusercontent.com/66271913/115345052-d9d54d80-a1cb-11eb-8aac-f1e53f332c21.jpg)
 ![details](https://user-images.githubusercontent.com/66271913/115345060-dcd03e00-a1cb-11eb-8d5a-acff984a5865.jpg)
 ![beverages](https://user-images.githubusercontent.com/66271913/115345075-e2c61f00-a1cb-11eb-9c75-ae189f9902eb.jpg)
